@@ -1,0 +1,21 @@
+{
+    "mcpServers": {
+      "filesystem": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "C:\\dev\\servers"
+        ]
+      },
+      "git": {
+        "command": "uv",
+        "args": [
+          "--directory",
+          "C:\\dev\\servers\\src\\git",
+          "run",
+          "mcp-server-git"
+        ]
+      }
+    }
+  }
