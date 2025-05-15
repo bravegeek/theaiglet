@@ -1,21 +1,32 @@
 {
-    "mcpServers": {
-      "filesystem": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@modelcontextprotocol/server-filesystem",
-          "C:\\dev\\servers"
-        ]
-      },
-      "git": {
-        "command": "uv",
-        "args": [
-          "--directory",
-          "C:\\dev\\servers\\src\\git",
-          "run",
-          "mcp-server-git"
-        ]
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\dev\\servers",
+        "C:\\dev\\theaiglet"
+      ]
+    },
+    "git": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\dev\\servers\\src\\git",
+        "run",
+        "mcp-server-git"
+      ]
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-brave-search"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "YOUR_API_KEY_HERE"
       }
     }
   }
+}
