@@ -1,0 +1,7 @@
+
+
+Get the next unchecked prompt from prompt.md and display it then use the prompt you displayed to generate a story.
+
+Rename the file to follow Jekyll's naming convention (YYYY-MM-DD-title.md)
+Switch to the gh-pages branch.
+Commit the story to the _posts folder in the gh-pages branch
