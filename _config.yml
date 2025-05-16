@@ -1,6 +1,6 @@
 title: The Aiglet
 description: > # this means to ignore newlines until "baseurl:"
-  We're helping you keeping your sanity while the world unravels.
+ Helping you keeping your sanity while the world unravels.
 permalink: ':title/'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: The Aiglet # add your name
 author-img: theaiglet.jpg # add your photo
-about-author: We're helping you keeping your sanity while the world unravels. # add description
+about-author: Helping you keeping your sanity while the world unravels. # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: bravegeek # add your Github handle
