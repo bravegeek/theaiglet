@@ -1,4 +1,10 @@
-# Executive Order Allows Smoking on Planes, Citing "Freedom to Fume"
+---
+layout: post
+title: "Executive Order Allows Smoking on Planes, Citing 'Freedom to Fume'"
+date: 2025-05-14 23:55:06 -0400
+description: A satirical news story lampooning a fictional presidential order that reintroduces smoking on airplanes, highlighting the absurdity of prioritizing "freedom" over public health.
+tags: [Satire, Politics, Humor]
+---
 
 **WASHINGTON, D.C.** — In a move that has left public health officials, airline executives, and non-smoking passengers gasping for air, President Chester B. Fogarty signed an executive order Tuesday officially allowing smoking on all domestic and international flights departing from U.S. soil.
 
