@@ -3,7 +3,7 @@ layout: post
 title: "Tech Titans Declare War on Manners: 'Please' and 'Thank You' Costing Us Billions"
 date: 2025-05-16 18:17:06 -0400
 description: Tech CEOs launch 'Efficiency Over Etiquette' initiative, claiming workplace pleasantries are hurting productivity and profits.
-img: tech-manners.jpg
+img: tech-bad-manners.jpg
 fig-caption: Tech executives in a heated debate about the cost of politeness
 categories: [Business, Technology, Satire]
 tags: [technology, business, satire, workplace, productivity]
