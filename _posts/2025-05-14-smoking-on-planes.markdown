@@ -3,6 +3,7 @@ layout: post
 title: "Executive Order Allows Smoking on Planes, Citing 'Freedom to Fume'"
 date: 2025-05-14 23:55:06 -0400
 description: A satirical news story lampooning a fictional presidential order that reintroduces smoking on airplanes, highlighting the absurdity of prioritizing "freedom" over public health.
+img: president-cigar.jpg # Add image post (optional)
 tags: [Satire, Politics, Humor]
 ---
 
