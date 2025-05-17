@@ -3,7 +3,7 @@ layout: post
 title: "Health Secretary Declares War on Autism Using Controversial Vaccines"
 date: 2025-05-17 01:13:36 -0400
 description: In a stunning reversal, the Health Secretary announces a new initiative to combat autism using the very vaccines once blamed for causing it.
-img: war-on-autism.jpg
+img: autism-vaccine-war.jpg
 fig-caption: "Health Secretary proudly displays the new 'Autism Eradication Vaccine' while standing in front of a graph showing autism rates going down"
 tags: [Politics, Health, Satire]
 img-prompt: "A dramatic scene of a government official holding up a giant syringe with 'Cure for Autism' written on it, standing in front of a cheering crowd, in the style of political propaganda posters"
