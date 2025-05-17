@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Health Secretary Declares War on Autism Using Controversial Vaccines"
-date: 2025-05-17 13:13:36 -0400
+date: 2025-05-17 01:13:36 -0400
 description: In a stunning reversal, the Health Secretary announces a new initiative to combat autism using the very vaccines once blamed for causing it.
 img: war-on-autism.jpg
 fig-caption: "Health Secretary proudly displays the new 'Autism Eradication Vaccine' while standing in front of a graph showing autism rates going down"
