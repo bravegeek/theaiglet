@@ -42,22 +42,19 @@ This application will generate satirical stories based on a predefined list of p
 
 ## **Detailed Workflow from write-a-story.txt**
 ### **1. Prompt Selection**
-- Check out `main` branch
+- Check out `gh-pages` branch
 - Read `prompt.md` to get the next unchecked prompt
 - Display the selected prompt to the user
 
 ### **2. Story Generation**
-- Check out `gh-pages` branch
 - Generate story using the selected prompt
 - Format the story using `template-article.md`
 
 ### **3. Publishing**
-
 - Save formatted story to `_posts/YYYY-MM-DD-title.md`
 - Commit the new story file
 
 ### **4. Prompt Management**
-- Switch back to `main` branch
 - Mark the used prompt as checked in `prompt.md`
 - Commit the updated `prompt.md`
 
