@@ -40,7 +40,7 @@ This application will generate satirical stories based on a predefined list of p
 4. Story is saved locally and committed to Git.
 5. Push to the repository.
 
-## **Detailed Workflow from write-a-story.txt**
+## **Detailed Workflow**
 ### **1. Prompt Selection**
 - Check out `gh-pages` branch
 - Read `_/workflow/prompt.md` to get the next unchecked prompt

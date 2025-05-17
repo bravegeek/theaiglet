@@ -1,8 +1,8 @@
 # The Aiglet
 
-The purpose of this project is to develop and document a structured approach for building and managing intelligent agents, focusing on clear planning, actionable tasks, effective workflows, and consistent prompting.
+## The purpose of this project is to develop an AI agent to provide an easy way to have AI generate satirical articles.
 
-The end result should be an easy way to have AI generate satirical articles.
+The project aims to develop and document a structured approach for building and managing intelligent agents, focusing on clear planning, actionable tasks, effective workflows, and consistent prompting.
 
 This project contains several key documents:
 

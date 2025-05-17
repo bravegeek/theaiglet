@@ -9,6 +9,7 @@ Check out the gh-pages branch of the repository and read the prompt.md file. Ide
 ```
 Using the following prompt: "[INSERT SELECTED PROMPT HERE]", generate a creative short story. Format the story according to the structure defined in template-article.md, including appropriate front matter.
 ```
+## TODO: Generate an image using the story
 
 ## Prompt 3: Story Publishing
 ```
