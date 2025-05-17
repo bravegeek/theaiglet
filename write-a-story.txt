@@ -2,8 +2,12 @@
 
 Get the next unchecked prompt from prompt.md and display it then use the prompt you displayed to generate a story.
 
-Check off the story and switch to the gh-pages branch
+Format the story using template-article.md and switch to the gh-pages branch
 
-Format the file using template-article.md and save it to the _posts folder following Jekyll's naming convention (YYYY-MM-DD-title.md)
+Save the story to the _posts folder following Jekyll's naming convention (YYYY-MM-DD-title.md)
 
-Commit the file to the gh-pages branch
+Check off the story and commit the file 
+
+Switch to the main branch and check the prompt in prompt.md then save and commit the changes
+
+
