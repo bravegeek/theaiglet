@@ -10,17 +10,17 @@ site-twitter: #if your site has a twitter account, enter it here
 author: The Aiglet # add your name
 author-img: theaiglet.jpg # add your photo
 about-author: Helping you keep your sanity while the world unravels. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: bravegeek # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+# social-twitter: # add your Twitter handle
+# social-facebook: # add your Facebook handle
+# social-github: bravegeek # add your Github handle
+# social-linkedin: # add your Linkedin handle
+# social-email: # add your Email address
 
 # Disqus
 # discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+# analytics: # Google Analytics
 
 # Build Settings
 markdown: kramdown
