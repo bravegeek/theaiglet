@@ -43,20 +43,20 @@ This application will generate satirical stories based on a predefined list of p
 ## **Detailed Workflow from write-a-story.txt**
 ### **1. Prompt Selection**
 - Check out `gh-pages` branch
-- Read `prompt.md` to get the next unchecked prompt
+- Read `_/workflow/prompt.md` to get the next unchecked prompt
 - Display the selected prompt to the user
 
 ### **2. Story Generation**
 - Generate story using the selected prompt
-- Format the story using `template-article.md`
+- Format the story using `_/workflow/template-article.md`
 
 ### **3. Publishing**
 - Save formatted story to `_posts/YYYY-MM-DD-title.md`
 - Commit the new story file
 
 ### **4. Prompt Management**
-- Mark the used prompt as checked in `prompt.md`
-- Commit the updated `prompt.md`
+- Mark the used prompt as checked in `_/workflow/prompt.md`
+- Commit the updated `_/workflow/prompt.md`
 
 ## **Next Steps**
 - Define the list of prompts.
@@ -65,8 +65,8 @@ This application will generate satirical stories based on a predefined list of p
 - Set up Git integration.
 - Test and refine.
 - Set up Git repository with `main` and `gh-pages` branches
-- Create `prompt.md` with initial prompts
-- Create `template-article.md` with Jekyll front matter
+- Create `_/workflow/prompt.md` with initial prompts
+- Create `_/workflow/template-article.md` with Jekyll front matter
 - Implement the workflow script
 - Test the complete workflow
 - Set up GitHub Actions for automation
