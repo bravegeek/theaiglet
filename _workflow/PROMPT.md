@@ -6,4 +6,5 @@
 - [x] "Florida bans flouride in drinking water and replaces it with corn syrup"
 - [x] "Write a satirical article about the Health secretary declaring war on autism using vaccines once believed to cause it"
 - [x] "Write a satirical article about white refugees fleeing to the United States and then being deported to Venezuela for crimes"
+- [x] "Write a satirical article about Texas and Florida lawmakers issuing guidance on how to conserve energy during a record heatwave, including ridiculous suggestions like frying eggs on the sidewalk"
 
