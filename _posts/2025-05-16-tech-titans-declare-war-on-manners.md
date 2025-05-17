@@ -7,6 +7,7 @@ img: tech-bad-manners.jpg
 fig-caption: Tech executives in a heated debate about the cost of politeness
 categories: [Business, Technology, Satire]
 tags: [technology, business, satire, workplace, productivity]
+img-prompt: In a chaotic corporate boardroom, a brusque and ill-mannered business executive in a perfectly tailored suit (with a sloppily knotted tie and wild hair) is screaming and shouting with exaggerated gestures. His face is flushed with anger and his eyes are ablaze as he berates a cowering subordinate, whose body language screams fear—hands clutching a crumpled stack of papers, head bowed in humiliation. The room is rendered in a dynamic, slightly cartoonish style with vivid colors and dramatic lighting that accentuates the tense, over-the-top confrontation. The overall scene has a satirical vibe that captures the absurdity of office power plays.
 ---
 
 In a groundbreaking press conference that left etiquette experts aghast, leading Silicon Valley CEOs announced a bold new initiative: the complete elimination of workplace pleasantries, which they claim are "crushing productivity" and "bleeding profits."
