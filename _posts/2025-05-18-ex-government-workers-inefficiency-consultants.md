@@ -9,8 +9,6 @@ tags: [Business, Satire, Government]
 img-prompt: "A group of well-dressed consultants in a lavish office, one sleeping at their desk, another playing solitaire on their computer, and a third taking a two-hour lunch break, with a sign that says 'Efficiency is Overrated' on the wall"
 ---
 
-![A team of 'Strategic Inefficiency Officers' hard at work]({{site.baseurl}}/assets/img/inefficiency-consultants.jpg)
-
 In a surprising turn of events, former government bigwigs who were once criticized for their inefficiency have found a new lease on life as highly-paid consultants for the very billionaires who once lobbied for their positions to be eliminated.
 
 ## The Efficiency Paradox
