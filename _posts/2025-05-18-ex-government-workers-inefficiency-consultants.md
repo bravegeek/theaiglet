@@ -4,9 +4,12 @@ title: "Ex-Government Bigwigs Find New Purpose as Inefficiency Consultants for B
 date: 2025-05-18 13:20:01 -0400
 description: "Former bureaucrats cash in on their unique skills in the private sector"
 img: inefficiency-consultants.jpg
+fig-caption: "A team of 'Strategic Inefficiency Officers' hard at work, or at least appearing to be"
 tags: [Business, Satire, Government]
 img-prompt: "A group of well-dressed consultants in a lavish office, one sleeping at their desk, another playing solitaire on their computer, and a third taking a two-hour lunch break, with a sign that says 'Efficiency is Overrated' on the wall"
 ---
+
+![A team of 'Strategic Inefficiency Officers' hard at work]({{site.baseurl}}/assets/img/inefficiency-consultants.jpg)
 
 In a surprising turn of events, former government bigwigs who were once criticized for their inefficiency have found a new lease on life as highly-paid consultants for the very billionaires who once lobbied for their positions to be eliminated.
 
