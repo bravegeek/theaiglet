@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ex-Government Bigwigs Find New Purpose as Inefficiency Consultants for Billionaires"
-date: 2025-05-18 13:20:01 -0400
+date: 2025-05-18 3:20:01 -0400
 description: "Former bureaucrats cash in on their unique skills in the private sector"
 img: inefficiency-consultants.jpg
 fig-caption: "A team of 'Strategic Inefficiency Officers' hard at work, or at least appearing to be"
