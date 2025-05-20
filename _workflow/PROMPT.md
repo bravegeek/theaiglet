@@ -9,5 +9,5 @@
 - [x] "Write a satirical article about Texas and Florida lawmakers issuing guidance on how to conserve energy during a record heatwave, including ridiculous suggestions like frying eggs on the sidewalk"
 - [x] "Write a satirical article about inefficient, ex-government employees who now work for the billionaires who fired them"
 - [x] "Write a satirical article about the Vatican being nervous about the upcoming visit of the vice-president of the United States after the Pope's sudden death after his last visit"
-- [ ] "Write a satirical article about US debt rating downgrade being ignored by Congress, who starts next spending spree"
+- [x] "Write a satirical article about US debt rating downgrade being ignored by Congress, who starts next spending spree"
 - [ ] "Write a satirical article about a jumbo jet "palace in the sky" given as a gift to the president and it is definitely NOT a Trojan Horse"
