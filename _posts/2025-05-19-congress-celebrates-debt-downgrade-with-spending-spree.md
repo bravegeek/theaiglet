@@ -3,7 +3,7 @@ layout: post
 title: "Congress Celebrates Debt Downgrade With $1 Trillion 'We're Still AAA in Our Hearts' Infrastructure Bill"
 date: 2025-05-19 22:00:30 -0400
 description: In a stunning display of fiscal responsibility, Congress responds to the recent US credit rating downgrade by immediately passing a $1 trillion infrastructure bill.
-img: debt-celebration.jpg
+img: debt-celebration.png
 fig-caption: Congress members throwing money in the air while celebrating the new spending bill
 tags: [politics, economy, satire]
 img-prompt: "A satirical political cartoon showing Congress members throwing dollar bills into a burning trash can labeled 'National Debt' while wearing party hats and blowing noisemakers, with a sign in the background that says 'Credit Rating Downgrade Celebration - Open Bar for Lobbyists'. The style should be colorful and exaggerated, similar to The Onion's satirical illustrations."
