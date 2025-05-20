@@ -10,4 +10,6 @@
 - [x] "Write a satirical article about inefficient, ex-government employees who now work for the billionaires who fired them"
 - [x] "Write a satirical article about the Vatican being nervous about the upcoming visit of the vice-president of the United States after the Pope's sudden death after his last visit"
 - [x] "Write a satirical article about US debt rating downgrade being ignored by Congress, who starts next spending spree"
-- [ ] "Write a satirical article about a jumbo jet "palace in the sky" given as a gift to the president and it is definitely NOT a Trojan Horse"
+- [ ] "Write a satirical article about a jumbo jet "palace in the sky" given as a gift to the white house and it is definitely NOT a Trojan Horse"
+- [ ] "Write a satirical article about the President denying he chose his cabinet based solely on their looks and large contributions"
+- [ ] "Write a satirical article about a satirist who can't find work because the world has lost its sanity, he longs for the days when Idiocracy was comedy, not reality"
