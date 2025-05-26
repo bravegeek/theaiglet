@@ -1,0 +1,11 @@
+baseURL = 'https://theaiglet.top/'
+languageCode = 'en-us'
+title = 'The Aiglet'
+theme = 'quint'
+
+[params]
+  description = "Keeping you sane while the world unravels"
+  logo = "/images/theaiglet.jpg"
+  alt = 'Whimsical mascot character with a mischievous grin and satirical spirit'
+  title = "The Aiglet - Satirical Humor"  
+  css = ["css/custom.css"]
