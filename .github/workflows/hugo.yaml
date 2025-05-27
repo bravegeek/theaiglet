@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Deploy Hugo to GitHub Pages
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - hugo  # Your branch name
   pull_request:
 
-# Set permissions for the workflow
+# Set the necessary permissions
 permissions:
   contents: write
   pages: write
@@ -14,13 +14,9 @@ permissions:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-    
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
       - name: Checkout
@@ -39,8 +35,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'  # or specify a specific version like '0.119.0'
-          extended: true
+          hugo-version: 'latest'  # Using the latest stable version
+          extended: true          # Required for SCSS/SASS support
 
       - name: Build
         run: |
@@ -53,7 +49,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          keep_files: false
-          force_orphan: true
+          publish_branch: hugo  # The branch GitHub Pages uses
+          force_orphan: true        # Keep only the latest deployment
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
