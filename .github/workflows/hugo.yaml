@@ -41,7 +41,7 @@ jobs:
       - name: Build
         run: |
           hugo version
-          hugo --minify --gc --verbose
+          hugo --minify --gc
 
       - name: Deploy to GitHub Pages
         id: deployment
