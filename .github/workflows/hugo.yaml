@@ -3,53 +3,32 @@ name: Deploy Hugo to GitHub Pages
 on:
   push:
     branches:
-      - hugo  # Your branch name
+      - gh-pages  # Set a branch to deploy
   pull_request:
-
-# Set the necessary permissions
-permissions:
-  contents: write
-  pages: write
-  id-token: write
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-    
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          submodules: 'recursive'  # Fetch Hugo themes
-          fetch-depth: 0           # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Debug Info
-        run: |
-          echo "Running on branch: ${{ github.ref }}"
-          echo "GitHub workspace: ${{ github.workspace }}"
-          ls -la
-          git remote -v
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'  # Using the latest stable version
-          extended: true          # Required for SCSS/SASS support
+          hugo-version: '0.119.0'
+          # extended: true
 
       - name: Build
-        run: |
-          hugo version
-          hugo --minify --gc
+        run: hugo --minify
 
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/gh-pages'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages  # The branch GitHub Pages serves from
-          force_orphan: true        # Keep only the latest deployment
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
