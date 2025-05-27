@@ -3,19 +3,38 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - hugo  # Set your branch name here
+      - hugo  # Your branch name
   pull_request:
+
+# Set permissions for the workflow
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
     runs-on: ubuntu-22.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: 'recursive'  # Fetch Hugo themes
+          fetch-depth: 0           # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Debug Info
+        run: |
+          echo "Running on branch: ${{ github.ref }}"
+          echo "GitHub workspace: ${{ github.workspace }}"
+          ls -la
+          git remote -v
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -24,11 +43,17 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --gc
+        run: |
+          hugo version
+          hugo --minify --gc --verbose
 
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/hugo'  # Match your branch name
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          keep_files: false
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
