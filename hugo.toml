@@ -9,3 +9,7 @@ theme = 'quint'
   alt = 'Whimsical mascot character with a mischievous grin and satirical spirit'
   title = "The Aiglet - Satirical Humor"  
   css = ["css/custom.css"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
