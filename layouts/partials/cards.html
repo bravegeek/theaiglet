@@ -20,7 +20,8 @@
                     {{ end }}
                     <div class="text">
                         <h2 class="p-name">{{ .Title }}</h2>
-                        <p class="small e-content">{{ .Summary | truncate 150 }}
+                        {{ $summaryLength := .Site.Params.summaryLength | default 120 }}
+                        <p class="small e-content">{{ .Summary | truncate $summaryLength }}
                         </p>
                     </div>
                 </a>

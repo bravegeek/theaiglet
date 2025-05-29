@@ -3,12 +3,20 @@ languageCode = 'en-us'
 title = 'The Aiglet'
 theme = 'quint'
 
+pagination.pagerSize = 6                  # Number of posts to show on a list page
+
 [params]
   description = "Keeping you sane while the world unravels"
+  summaryLength = 150                  # Number of characters in your card summaries
   logo = "/images/theaiglet.jpg"
   alt = 'Whimsical mascot character with a mischievous grin and satirical spirit'
   title = "The Aiglet - Satirical Humor"  
   css = ["css/custom.css"]
+
+[[params.social]]
+    url = "https://github.com/bravegeek/theaiglet"
+    icon = "/social/github.svg"
+    name = "GitHub"
 
 [caches]
   [caches.images]
