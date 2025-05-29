@@ -6,7 +6,12 @@
     </div>
     <div class="logo h-card">
         <a class="u-url" href="{{ .Site.Home.Permalink }}">
-            <img alt="Site Logo" class="site-logo u-photo" src="{{ $.Site.Params.logo | default "/images/logo.png" }}"/>
+            {{ $logoPath := .Site.Params.logo }}
+            {{ $logo := resources.Get $logoPath }}
+            {{ if $logo }}
+                {{ $resizedLogo := $logo.Resize "60x" }}
+                <img alt="{{ .Site.Params.alt }}" class="site-logo u-photo" src="{{ $resizedLogo.RelPermalink }}" title="{{ .Site.Params.title }}" width="60"/>
+            {{ end }}
         </a>
         <p>© {{ now.Format "2006" }}
             {{ .Site.Title }}</p>
