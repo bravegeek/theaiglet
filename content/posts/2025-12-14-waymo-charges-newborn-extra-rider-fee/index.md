@@ -1,5 +1,5 @@
 +++
-date = '2025-12-15T00:00:00-08:00'
+date = '2025-12-16T00:20:01-04:00'
 type = 'posts'
 draft = false
 title = "Waymo Charges Newborn 'Extra Rider' Fee After In-Car Birth, Waives Car Seat Violation"

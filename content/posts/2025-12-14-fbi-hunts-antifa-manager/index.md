@@ -1,5 +1,5 @@
 +++
-date = '2025-12-164T09:00:00-05:00'
+date = '2025-12-15T00:20:01-04:00'
 type = 'posts'
 draft = false
 title = "FBI Launches Nationwide Manhunt for 'Antifa's Manager,' Demands to Speak to Corporate"
