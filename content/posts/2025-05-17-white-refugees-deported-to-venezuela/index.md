@@ -1,7 +1,7 @@
 +++
 date = '2025-05-17T12:16:50-04:00'
 type = 'posts'
-draft = false
+draft = true
 title = 'White Refugees Deported to Venezuela After Failing to Assimilate'
 slug = 'white-refugees-deported-to-venezuela'
 image = 'deportation.jpg'

@@ -1,7 +1,7 @@
 +++
 date = '2025-05-17T23:22:21-04:00'
 type = 'posts'
-draft = false
+draft = true
 title = 'Texas and Florida Lawmakers Unveil Revolutionary "Fry an Egg" Energy Conservation Plan'
 slug = 'texas-florida-heatwave-energy-guide'
 image = 'heatwave-energy.jpg'
