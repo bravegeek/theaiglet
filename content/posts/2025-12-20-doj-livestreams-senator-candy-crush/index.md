@@ -15,13 +15,22 @@ img-prompt = "Editorial Illustration: The Senator's Secret Shame A detailed, vib
 
 "We promised the American people the truth, and apparently, we gave them entirely too much of it," said weary DOJ spokesperson Archibald "Archie" Leach, rubbing his temples during a press briefing. "While we aimed to shed light on a dark chapter of criminal history, we never intended to reveal that Senator Blatherskite has a Pinterest board dedicated exclusively to 'ferret fashion' or that a certain tech billionaire has been secretly funding a revival of *Alf*."
 
+
+## Operation Glass House of Cards
+
 The initiative, dubbed "Operation Glass House," aimed for a solemn disclosure of justice. Instead, it exploded into a tabloid bonanza. The most riveting "findings" included a 400-page manifesto from a high-ranking cabinet member detailing their grievances with the ending of *Game of Thrones*, and a series of frantic emails from a leading banking executive trying to locate a discontinued flavor of Pop-Tarts.
 
 "It's a privacy nightmare, but purely from an entertainment perspective, it's the golden age of democracy," noted media analyst Dr. Evelyn Winters. "We're not learning much about the criminal enterprise, but we now know which Supreme Court Justice has a secret addiction to 'unboxing' videos. It humanizes them in the worst possible way."
 
+
+## Strategic Oversharing Initiatives
+
 The leak sparked bipartisan outrage, mostly from officials terrified that their own digital skeletons are next in the queue. Senator Cornelius Fogarty (R-Neb.) demanded an immediate halt to the release, shortly after Twitter users discovered his Spotify Wrapped was dominated by "Tibetan Throat Singing Remixes."
 
 "This is an invasion of privacy! A breach of trust!" Fogarty shouted on the Senate floor, while an aide frantically whispered in his ear. "And for the record, throat singing is a valid form of meditation, and I will not be shamed for my cultural appreciation!"
+
+
+## The Comic Sans Containment Breach
 
 Away from the halls of power, the public reaction hinged less on justice and more on voyeurism. "I came for the conspiracy theories, but I stayed for the revelation of the Treasury Secretary's Federal Reserve fan fiction," said local barista and newfound political junkie, Mark Dwendle. "The plot twists in 'Quantitative Easing: A Love Story' are honestly better than anything on Netflix."
 
