@@ -1,0 +1,8 @@
+{{ with .Params.image }}
+  {{ with $.Resources.Get . }}
+    {{ $image := .Resize "800x" }}
+    <div class="centered-featured-image">
+      <img src="{{ $image.RelPermalink }}" alt="{{ with $.Params.alt }}{{ . }}{{ else }}{{ $.Title }}{{ end }}" />
+    </div>
+  {{ end }}
+{{ end }}

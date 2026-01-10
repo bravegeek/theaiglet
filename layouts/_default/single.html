@@ -1,0 +1,45 @@
+{{ define "main" }}
+    <main class="post h-entry container row">
+        <div class="post">
+            <!-- Include the centered featured image partial -->
+            {{ partial "centered-featured-image.html" . }}
+            
+            <div class="post-title">
+                <h1 class="p-name">{{ .Title }}</h1>
+            </div>
+            
+            <div class="post-data row">
+                <time class="dt-published" datetime="{{ .Date }}">
+                    <a class="u-url" href="{{ .Permalink }}">{{ .Date | time.Format ":date_medium" }}</a>
+                </time>
+                <span rel="author" class="p-author h-card">
+                    <img class="u-photo hidden" src="{{ with $.Site.Author.image }}{{ . }}{{ else }}{{ end }}" />
+                    <span class="p-name hidden" rel="me">{{ with .Params.author }}{{ . }}{{ else }}{{ $.Site.Author.name }}{{ end }}</span>
+                </span>
+            </div>
+            <div class="e-content">
+                {{ .Content }}
+                {{ with .Params.tags }}
+                <span class="tag-container">
+                    {{ range . }}
+                    <a class="p-category tag" href="{{ "tags/" | relURL }}{{ . | urlize }}/">
+                        {{ . }}
+                    </a>&nbsp;
+                    {{ end }}
+                </span>
+                {{ end }}
+            </div>
+        </div>
+        {{ if .Site.Params.useToc }}
+            {{ $headingsCount := replaceRE "[^0-9]" "" (trim (partial "count-headings.html" .Content) " \n\r") }}
+            {{ $headingsCountInt := int $headingsCount }}
+            {{ $multiHeading := ge $headingsCount 1 }}
+            {{ if $multiHeading }}
+                <aside class="tableOfContentContainer" id="tableOfContentContainer">
+                    <h3>Table of Contents</h3>
+                    {{ .TableOfContents }}
+                </aside>
+            {{ end }}
+        {{ end }}
+    </main>
+{{ end }}

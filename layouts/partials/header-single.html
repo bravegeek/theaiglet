@@ -1,0 +1,21 @@
+<header>
+    <div class="logo h-card">
+        <a class="u-url" href="{{ .Site.Home.Permalink }}">
+            {{ $logoPath := .Site.Params.logo }}
+            {{ $logo := resources.Get $logoPath }}
+            {{ if $logo }}
+                {{ $resizedLogo := $logo.Resize "120x" }}
+                <img alt="{{ .Site.Params.alt }}" class="site-logo u-photo single-logo" src="{{ $resizedLogo.RelPermalink }}" title="{{ .Site.Params.title }}" width="120"/>
+            {{ end }}
+        </a>
+    </div>
+    <nav class="menu">
+        <ul>
+            {{- range site.Menus.main }}
+                <li>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+            {{- end }}
+        </ul>
+    </nav>
+</header>

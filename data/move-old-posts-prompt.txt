@@ -1,0 +1,4 @@
+using the content/posts as examples, create a new post from this file, making sure to copy its image to the new folder. 
+Use the same exact content and remember to change the front matter keys while preserving the values.
+Front matter should be in the same format as the examples.
+use the date from the front matter to create the folder name.

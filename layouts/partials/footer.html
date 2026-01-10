@@ -1,0 +1,31 @@
+<footer>
+    <div class="footer-content">
+        <div class="social-media">
+            {{ range site.Params.social}}
+                <a href="{{ .url }}" aria-label="{{ .name }}"><img alt="{{ .name }}" src="{{ .icon }}"/></a>
+            {{ end }}
+        </div>
+    <div class="logo h-card">
+        <a class="u-url" href="{{ .Site.Home.Permalink }}">
+            {{ $logoPath := .Site.Params.logo }}
+            {{ $logo := resources.Get $logoPath }}
+            {{ if $logo }}
+                {{ $resizedLogo := $logo.Resize "60x" }}
+                <img alt="{{ .Site.Params.alt }}" class="site-logo u-photo" src="{{ $resizedLogo.RelPermalink }}" title="{{ .Site.Params.title }}" width="60"/>
+            {{ end }}
+        </a>
+        <p>© {{ now.Format "2006" }}
+            {{ .Site.Title }}</p>
+    </div>
+        <nav>
+            <ul>
+                {{- range site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                {{- end }}
+            </ul>
+        </nav>
+    </div>
+    {{ partial "search-index.html" . }}
+</footer>
