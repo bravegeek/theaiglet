@@ -2,7 +2,7 @@
 date = '2026-01-15T00:00:00-04:00'
 type = 'posts'
 draft = false
-title = 'Iran Launches Global Consulting Firm to Export Protest Suppression Techniques, Saudi Arabia First Customer'
+title = 'Iran Monetizes Protest Suppression With New B2B SaaS Offering'
 slug = 'iran-launches-protest-suppression-consulting-firm'
 image = 'iran-consulting-firm.jpg'
 alt = 'Satirical graphic depicting Iran consulting firm launch'

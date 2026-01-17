@@ -2,7 +2,7 @@
 date = '2025-12-20T14:30:00-05:00'
 type = 'posts'
 draft = false
-title = "Trump's \"Patriot Games\" to Award Winners Affordable Housing, Pensions, Other Relics of Boomer Economy"
+title = "Winners Of Trump's 'Patriot Games' To Receive Affordable Housing, Pension"
 slug = 'trumps-patriot-games-affordable-housing-pensions'
 image = 'patriot-games-obstacle-course.jpg'
 alt = 'Editorial illustration showing generational wealth gap: millennials navigating financial obstacles while boomers sit comfortably'

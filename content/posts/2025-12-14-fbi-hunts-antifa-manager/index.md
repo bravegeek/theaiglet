@@ -2,7 +2,7 @@
 date = '2025-12-15T00:20:01-04:00'
 type = 'posts'
 draft = false
-title = "FBI Launches Nationwide Manhunt for 'Antifa's Manager,' Demands to Speak to Corporate"
+title = "FBI Demands To Speak With Antifa's Manager"
 slug = 'fbi-hunts-antifa-manager'
 image = 'fbi-antifa-org-chart.jpg'
 alt = 'FBI agents confusedly pointing at a blank whiteboard labeled Antifa Org Chart'

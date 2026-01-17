@@ -2,7 +2,7 @@
 date = '2025-12-25T05:27:53+00:00'
 type = 'posts'
 draft = false
-title = 'The Keep Christmas Safe Act: Congress Accidentally Bans Santa Claus, Triggers International Crisis'
+title = 'Congress Accidentally Bans Santa Claus'
 slug = 'keep-christmas-safe-act-congress-bans-santa'
 image = 'keep-christmas-safe-act-wanted-poster.jpg'
 alt = 'Cold War propaganda poster-style photograph of Santa Claus as a noir wanted poster, surrounded by classified documents, Pentagon plans, and Greenland maps connected by red string'
