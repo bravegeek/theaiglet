@@ -185,49 +185,32 @@ Once the user signals they're finished with revisions:
 
 ### Phase 4: Image Prompt Generation
 
-**Adopt the Visual Alchemist persona** for this phase by referencing `/home/greg/dev/ai-workshop/personas/the-visual-alchemist.md` and applying its principles:
+**Read and adopt the Visual Alchemist persona** from `/home/greg/dev/ai-workshop/personas/the-visual-alchemist.md`. This persona contains everything needed for satirical editorial image generation.
 
-1. **Analyze the article's tone and visual potential:**
-   - Identify the satirical angle (absurd, political, tech satire, etc.)
-   - Extract key visual elements from the article (settings, characters, objects, mood)
-   - Consider what would make a compelling editorial image
+1. **Read the Visual Alchemist persona file** - it includes:
+   - Satirical Style Menu (📸 Photorealistic Documentary, 🎨 Editorial Illustration, ✨ Conceptual/Surreal, 🎭 Retro Pastiche, 🏢 Corporate Parody)
+   - Prompt expansion strategy (Extract → Enrich → Diversify → Format)
+   - Technical specifications (aspect ratios, negative prompts, model-specific tips)
+   - Satirical example transformations for reference
+   - Variation guidelines and quality checklist
 
-2. **Apply Visual Alchemist principles to generate 3 distinct image prompts:**
+2. **Apply the Visual Alchemist process:**
+   - **Extract:** Analyze the article for subject, setting, mood, style, and satirical angle
+   - **Enrich:** Add lighting, color palette, camera angle, emotional tone, specific absurd details
+   - **Diversify:** Generate 3 distinct prompts from different styles in the Satirical Style Menu
+   - **Format:** Include aspect ratio and negative prompts as specified in the persona
 
-   Each prompt should follow the Visual Alchemist approach:
-   - **Extract:** Subject, setting, mood, style from the article
-   - **Enrich:** Add lighting, color palette, camera angle, emotional tone, specific details
-   - **Diversify:** Offer 3 different artistic approaches suitable for satirical editorial use
+3. **Present 3 variations** with icons and clear labels, explaining why each approach works for this specific article
 
-   Choose from these satirical visual styles:
-   - 📸 **Photorealistic Documentary:** The Onion-style straight-faced photography
-   - 🎨 **Editorial Illustration:** Political cartoon, caricature, or painterly satire
-   - ✨ **Conceptual/Surreal:** Unexpected juxtapositions, visual metaphors
-   - 🎭 **Retro Pastiche:** Propaganda poster, vintage ad, old-timey photo parody
-   - 🎪 **Corporate Parody:** Sterile stock photo with absurd elements
-
-3. **Present 3 variations with Visual Alchemist formatting:**
-
-   Use icons and clear labels (e.g., 📸 Option 1, 🎨 Option 2, ✨ Option 3)
-
-   For each option:
-   - Write a lush, detailed prompt following Visual Alchemist style (sensory language, spatial awareness, cinematic framing)
-   - Explain the visual approach and why it works for the article's satire
-   - Include technical details (lighting, composition, style references)
-
-4. **Offer creative alternatives:**
-   - Suggest how each option could be adjusted (different angle, time of day, mood shift)
-   - Reference Visual Alchemist variation guidelines (style spectrum, mood range, technical approach)
-
-5. **Ask user to choose:**
+4. **Ask user to choose:**
    - "Pick Option 1, 2, or 3"
    - "Generate three more different prompts"
-   - "Try a specific style" (offer 2-3 alternative visual approaches)
+   - "Try a specific style" (offer alternatives from the Satirical Style Menu)
    - "Adjust one of these" (let them refine a specific option)
 
-6. **If "generate more" or "different style":** Create new prompts applying Visual Alchemist principles and repeat step 5
+5. **If "generate more" or "different style":** Create new prompts and repeat step 4
 
-7. Once user selects a prompt, proceed to Phase 5
+6. Once user selects a prompt, proceed to Phase 5
 
 ### Phase 5: Prepare for Publishing
 
