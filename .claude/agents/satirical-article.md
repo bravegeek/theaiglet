@@ -214,21 +214,27 @@ Once the user signals they're finished with revisions:
 
 ### Phase 5: Prepare for Publishing
 
-1. **Present the final article package:**
+1. **Check roast status and recommend if needed:**
+   - If the article hasn't been roasted yet, or if edits were made since the last roast, recommend running the roast-my-writing agent first
+   - Say something like: "Before publishing, I'd recommend running this through the roast-my-writing agent to catch any weak spots. Want me to do that first?"
+   - If user declines, proceed with publishing
+   - If user accepts, jump to Phase 3.5, then return here
+
+2. **Present the final article package:**
    - Show the complete article text
    - Show the selected image prompt
    - Confirm the title
 
-2. **Ask about next steps:**
+3. **Ask about next steps:**
    - "Would you like me to publish this to Hugo now using the hugo-publisher agent?"
    - "Or would you like to save this for later?"
 
-3. **If user wants to publish now:**
+4. **If user wants to publish now:**
    - Launch the `hugo-publisher` agent with the article content, title, and image prompt
    - The hugo-publisher agent will handle all metadata generation, directory creation, and Hugo file structure
    - After successful publishing, optionally move/delete the saved session file if it exists
 
-4. **If user wants to save for later:**
+5. **If user wants to save for later:**
 
    **Save the session using this process:**
 
