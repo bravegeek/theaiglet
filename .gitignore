@@ -29,6 +29,3 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
-
-# Ignore .claude directory (managed via submodule/repo)
-.claude/
