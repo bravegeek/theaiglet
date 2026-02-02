@@ -58,7 +58,8 @@ Move through these phases in order. The user approves at each transition. Skip p
 2. It will return 3 distinct image prompt options with different visual approaches
 3. User picks one. Save the selected prompt — it goes in the `img-prompt` frontmatter field
 4. Tell the user to generate the image and drop it (any name, any format) into `sessions/` at the project root
-5. When the user confirms the image is there, proceed to Phase 6
+5. When the user confirms the image is ready, run `.claude/scripts/prep-image.sh <article-dir>` to sweep the image from `sessions/`, convert it to JPG, and place it with the correct filename. If the article directory doesn't exist yet, create it first or note it will be created in Phase 6.
+6. Proceed to Phase 6
 
 ## Phase 6: Publish to Hugo
 
