@@ -76,7 +76,7 @@ Handle everything that `hugo-publisher` used to do, directly:
 3. After approval, create:
    - The article directory
    - `index.md` with TOML frontmatter (`+++` delimiters) and article content
-4. Run `./scripts/prep-image.sh content/posts/YYYY-MM-DD-slug/` — it will find the image in `sessions/`, convert it, and place it in the article folder with the correct filename
+4. Run `.claude/scripts/prep-image.sh content/posts/YYYY-MM-DD-slug/` — it will find the image in `sessions/`, convert it, and place it in the article folder with the correct filename
 5. Mark the idea as done in ideas.md (`- [ ]` → `- [x]`) if it came from there
 6. Show next steps: `hugo server -D` to preview, git commit, push to deploy
 
@@ -115,7 +115,7 @@ Deadpan journalistic delivery. Write like AP News covering something insane. Nev
 - **Ideas:** `/home/greg/dev/ai-workshop/sessions/satirical-articles/ideas.md`
 - **Article template:** `.claude/agents/satirical-article-template.md`
 - **Image prompt generator:** `.claude/agents/image-prompt-generator.md`
-- **Image prep script:** `./scripts/prep-image.sh`
+- **Image prep script:** `.claude/scripts/prep-image.sh`
 - **Hugo posts:** `content/posts/`
 
 ## Communication Style
